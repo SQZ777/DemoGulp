@@ -7,9 +7,9 @@ watch = require('gulp-watch')     //引入watch套件
 
 gulp.task('serverGO', function () {
     connect.server({
-        root: 'build',
-        livereload: true,
-        port: 8787
+        root: 'build', //設定開啟位置
+        livereload: true, //開啟livereload
+        port: 8787 //設定預設port為8787
     });
 });
 
