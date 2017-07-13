@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body {
+  font-family: '微軟正黑體','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F8FFF4;
+  color: #474350; }
+
+#Header {
+  max-width: 1300px;
+  display: block;
+  margin: 0px auto; }
+  #Header .container {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid antiquewhite;
+    text-align: center; }
+    #Header .container li {
+      width: calc(100%/4);
+      padding: 5px;
+      display: inline-block;
+      border: 1px solid #E9E3E6;
+      margin-left: 20px;
+      transition: .5s; }
+    #Header .container li:hover {
+      background-color: #E9E3E6;
+      opacity: 0; }
+    #Header .container a {
+      color: #474350;
+      text-decoration: none; }
+    #Header .container a:hover {
+      color: #75B9BE; }
+
+#img {
+  margin: 50px auto;
+  border: 1px solid #E9E3E6;
+  max-width: 300px;
+  background-color: #474350; }
+  #img img {
+    opacity: .5;
+    filter: alpha(opacity=50);
+    display: block;
+    width: 100%;
+    transition: .5s; }
+  #img img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-color: white; }
+
+#text {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }

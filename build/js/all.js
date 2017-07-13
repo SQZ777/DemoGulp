@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("PrintA")}),$(document).ready(function(){console.log("PrintB")});
